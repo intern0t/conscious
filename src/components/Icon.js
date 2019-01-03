@@ -1,7 +1,10 @@
-import React from "react";
+import React, { Component } from "react";
 
-const Icon = ({ icon }) => {
-    return <span className={icon} />;
-};
+class Icon extends Component {
+    render() {
+        const { icon } = this.props;
+        return <span className={icon} {...this.props} />;
+    }
+}
 
 export default Icon;

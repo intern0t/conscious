@@ -8,10 +8,15 @@ class App extends Component {
         return (
             <div className="App">
                 <div className="sidebar">
-                    Sidebar
-                    <Icon icon={"fas fa-bars"} />
+                    <Icon icon={"fas fa-bars"} title="Open Sidebar." />
                 </div>
                 <div className="container">
+                    {/* <div className="add-new-reminder">
+                        <Icon
+                            icon="fas fa-plus-square"
+                            title="Add new reminder."
+                        />
+                    </div> */}
                     <Clock />
                 </div>
             </div>
