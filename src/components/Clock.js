@@ -42,10 +42,10 @@ export default class Clock extends Component {
 
     render() {
         return (
-            <React.Fragment>
+            <div className="clock">
                 <div className="time">{this.state.currentTime}</div>
                 <div className="date">{this.state.currentDate}</div>
-            </React.Fragment>
+            </div>
         );
     }
 }
